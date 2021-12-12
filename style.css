@@ -1,0 +1,39 @@
+body {
+    margin: 100px 0px 0px 0px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.image-oil {
+    position: absolute;
+    width: 100vw;
+    bottom: 0px;
+}
+
+.image-grass {
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    margin-right: auto;
+    background-position: center center;
+    background-size: cover;
+    object-fit: fill;
+}
+
+.box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.girl {
+    position: absolute;
+    width: 30vw;
+    bottom: 2vh;
+    left: 10vw;
+    z-index: 9;
+    background-size: cover;
+    object-fit: fill;
+}
